@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Frontend Quiz App</title>
+  <!--This is the landing/login page...-->
+
+  <!-- Global & Page Styles.-->
+  <link rel="stylesheet" href="css/global.css" />
+  <link rel="stylesheet" href="css/auth.css" />
+</head>
+<body>
+
+  <main class="auth-container">
+    <h1 class="app-title">Frontend Quiz App</h1>
+    <p class="subtitle">Test your HTML & CSS knowledge!</p>
+
+    <form id="loginForm" class="auth-form">
+      <input
+        type="text"
+        id="username"
+        placeholder="Enter your name"
+        autocomplete="off"
+        required
+      />
+
+      <button type="submit">Start</button>
+    </form>
+
+    <p class="footer-text">
+      Learn, practice, and build a path to your future.
+    </p>
+  </main>
+
+  <!-- Auth Logic -->
+  <script src="js/auth.js"></script>
+</body>
+</html>
