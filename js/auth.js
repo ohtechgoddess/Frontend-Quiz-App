@@ -1,8 +1,8 @@
-// Select elements
+// Select elements.
 const loginForm = document.getElementById("loginForm");
 const usernameInput = document.getElementById("username");
 
-// Handle form submission
+// Handle form submission.
 loginForm.addEventListener("submit", function (e) {
   e.preventDefault();
 
@@ -13,9 +13,9 @@ loginForm.addEventListener("submit", function (e) {
     return;
   }
 
-  // Save name to localStorage
+  // Save name to localStorage.
   localStorage.setItem("quizUsername", username);
 
-  // Redirect to home dashboard
+  // Redirect to home dashboard.
   window.location.href = "home.html";
 });

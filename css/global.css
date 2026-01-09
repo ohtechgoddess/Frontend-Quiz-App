@@ -1,4 +1,4 @@
-/* CSS Reset */
+/* CSS Reset. */
 * {
   margin: 0;
   padding: 0;
@@ -12,7 +12,7 @@ body {
   min-height: 100vh;
 }
 
-/* Utility */
+/* Utility.*/
 button {
   cursor: pointer;
   border: none;
