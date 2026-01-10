@@ -1,0 +1,35 @@
+.portfolio-preview {
+  padding: 1.5rem;
+}
+
+.template-preview {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 12px;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  color: black;
+}
+
+.role {
+  color: #555;
+  margin-bottom: 0.5rem;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 0.8rem;
+}
+
+.project-card {
+  background: #f3f3f3;
+  padding: 0.8rem;
+  border-radius: 8px;
+  text-align: center;
+}
+
+button{
+    padding: 10px;
+    border-radius: 20px;
+}

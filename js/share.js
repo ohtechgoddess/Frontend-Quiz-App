@@ -1,3 +1,5 @@
+const APP_URL = "https://frontend-quiz-game.netlify.app/";
+
 const name = localStorage.getItem("quizUsername");
 const score = Number(localStorage.getItem("score"));
 const total = Number(localStorage.getItem("total"));
@@ -11,7 +13,8 @@ const percent = Math.round((score / total) * 100);
 
 const message =
   `I scored ${score}/${total} (${percent}%) on the ` +
-  `${quizType.toUpperCase()} quiz in the Frontend Quiz App, try it out!`;
+  `${quizType.toUpperCase()} quiz in the Frontend Quiz App.\n\n` +
+  `Try it here: ${APP_URL}`;
 
 document.getElementById("shareText").textContent = message;
 
