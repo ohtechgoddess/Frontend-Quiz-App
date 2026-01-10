@@ -8,7 +8,7 @@ if (!username) {
 
 greeting.textContent = `Hi, ${username}!`;
 
-// Navigation
+// Navigation.
 document.getElementById("htmlQuiz").onclick = () => {
   window.location.href = "quiz.html?type=html";
 };

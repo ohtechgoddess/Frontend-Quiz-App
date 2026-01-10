@@ -1,0 +1,17 @@
+.share-container {
+  padding: 1.5rem;
+}
+
+.share-card {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  margin: 1.2rem 0;
+  color: black;
+}
+
+button {
+  width: 100%;
+  margin-top: 0.8rem;
+}

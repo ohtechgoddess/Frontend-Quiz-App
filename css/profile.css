@@ -1,0 +1,25 @@
+.profile-container {
+  padding: 1.5rem;
+}
+
+.profile-card {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  margin-bottom: 1.5rem;
+  color: black;
+}
+
+.profile-card p {
+  margin: 0.5rem 0;
+}
+
+.danger-btn {
+  background: #e63946;
+  color: white;
+  border: none;
+  padding: 0.8rem 1rem;
+  border-radius: 10px;
+  width: 100%;
+}
